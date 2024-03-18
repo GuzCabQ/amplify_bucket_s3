@@ -12,9 +12,6 @@
       "AmplifyAppId": "dwkg432lohvqv"
     },
     "categories": {
-      "auth": {
-        "testdevamplify340332fc": {}
-      },
       "storage": {
         "testdevamplify8529761c": {
           "bucketName": "clientes-documentacion-staging",
