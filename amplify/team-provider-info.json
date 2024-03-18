@@ -10,6 +10,17 @@
       "StackName": "amplify-testdevamplify-dev-114129",
       "StackId": "arn:aws:cloudformation:us-east-2:516678458213:stack/amplify-testdevamplify-dev-114129/c1e898c0-e54e-11ee-b721-0a155135ce47",
       "AmplifyAppId": "dwkg432lohvqv"
+    },
+    "categories": {
+      "auth": {
+        "testdevamplify340332fc": {}
+      },
+      "storage": {
+        "testdevamplify8529761c": {
+          "bucketName": "clientes-documentacion-staging",
+          "region": "us-east-2"
+        }
+      }
     }
   }
 }
