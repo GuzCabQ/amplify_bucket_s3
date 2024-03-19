@@ -1,29 +1,29 @@
 {
-  "auth": {},
-  "parameters": {
-    "AMPLIFY_storage_testdevamplify8529761c_bucketName": {
-      "usedBy": [
-        {
-          "category": "storage",
-          "resourceName": "testdevamplify8529761c"
-        }
-      ]
-    },
-    "AMPLIFY_storage_testdevamplify8529761c_region": {
-      "usedBy": [
-        {
-          "category": "storage",
-          "resourceName": "testdevamplify8529761c"
-        }
-      ]
+  "auth": {
+    "testdevamplifybe0cc89f7": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
     }
   },
-  "storage": {
-    "testdevamplify8529761c": {
-      "dependsOn": [],
-      "providerPlugin": "awscloudformation",
-      "service": "S3",
-      "serviceType": "imported"
-    }
-  }
+  "storage": {}
 }
